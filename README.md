@@ -9,7 +9,7 @@ Well, it uses the window system "WX", to comply with legacy code, but was later 
 
 ## Dependencies
 
-```
+```bash
 sudo apt install python-{setuptools,matplotlib}
 sudo pip install minimalmodubs, wxPython, wxmplot
 ```
@@ -21,7 +21,7 @@ The module is located on GitHub.
 It is recomended to keep the git repository in the "HOME" folder such that changes can be reported to the master.
 The following commands stores the repository as "HOME/Git/<REPOSITORY>" and installs the module in the system "root".
 
-```
+```bash
 git clone "https://github.com/sigveka/RTD.git" "${HOME}/Git/RTD"
 cd "${HOME}/Git/RTD"
 python setup.py build
@@ -30,7 +30,7 @@ sudo python setup.py install
 
 the experiment can now be run as a module:
 
-```
+```bash
 python -m RTD
 ```
 
